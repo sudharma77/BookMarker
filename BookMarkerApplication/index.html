@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMarker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="contentStorage()">
+    <br><br>
+    <h3>Bookmarker</h3>
+    <br><br><br><br><br><br><br>
+    <form id="myform">
+    <div class="container" id="container">
+        <h2>Bookmark Your Favorite Sites</h2><br>
+        <b>Site Name</b><br>
+        <input type="text" class="inputSite" id="inputSite" placeholder="Site Name" autocomplete="off"><br>
+        <b>Site URL</b><br>
+        <input type="text" class="inputURL" id="inputURL" placeholder="Site URL(Include https://)" autocomplete="off"><br>
+        <button type="submit" class="submitButton" id="submitButton">Submit</button>
+        
+    </div>
+    </form>
+    <br><br>
+    <div class="storage" id="storage"></div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
